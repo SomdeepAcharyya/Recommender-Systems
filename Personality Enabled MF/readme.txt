@@ -14,5 +14,14 @@ has an impact on user preferences for a variety of items. The similarity scores 
 incorporated into a novel probabilistic matrix factorization method that assimilates users
 with similar personality scores as neighbours, wherein the users in a neighbourhood
 impact each other’s recommendations to enhance the model’s accuracy.
-To evaluate the proposed framework, experiments were conducted using five real-world
+To evaluate the proposed framework, experiments were conducted using real-world
 datasets from TripAdvisor and Amazon.
+
+Dataset: 
+TripAdvisor review dataset(https://www.researchgate.net/publication/301543515_TripAdvisor_dataset_with_personality_scores/link/5718059c08aed43f63220a27/download)
+Amazon magazine subscriptions dataset(https://nijianmo.github.io/amazon/index.html)
+
+Execution order:
+1. Preprocess the reviews of the dataset using preporcessing.ipynb
+2. Predict the personality of amazon users from tripadvisor users with transformers
+3. Perform recommendations on amazon users using PEMF
