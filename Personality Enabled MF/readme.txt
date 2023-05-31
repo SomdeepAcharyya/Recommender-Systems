@@ -21,6 +21,8 @@ Dataset:
 TripAdvisor review dataset(https://www.researchgate.net/publication/301543515_TripAdvisor_dataset_with_personality_scores/link/5718059c08aed43f63220a27/download)
 Amazon magazine subscriptions dataset(https://nijianmo.github.io/amazon/index.html)
 
+For all the datasets downloaded, the reviews need to be preprocessed using preprocessing.ipynb
+
 Execution order:
 1. Preprocess the reviews of the dataset using preporcessing.ipynb
 2. Predict the personality of amazon users from tripadvisor users with transformers
